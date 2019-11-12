@@ -17,16 +17,21 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   width:            420px;
-  float:            left;
+  float:left;
 }
 
 #sidebar {
-  background:       #efe5d0 url(images/background.gif) bottom right;
-  font-size:        105%;
-  padding:          15px;
-  margin:           0px 10px 10px 470px;
-  
-  
+  background:#efe3d0 url(images/background.gif)bottom right;
+  front-size:105%;
+  padding: 15px;
+  margin: 0px 10px 10px 470px;
+}
+
+#annoyingad{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 400px;
 }
 
 #footer {
@@ -36,7 +41,7 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-  clear:            left;
+  clear:left;
 }
 
 h1 {
@@ -60,4 +65,12 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+#allcontent {
+  width:800px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  background-color:#675c47;
+  margin-left: auto;
+  margin-right: auto;
 }
